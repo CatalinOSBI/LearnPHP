@@ -1,0 +1,36 @@
+*{
+    margin:0 ;
+    padding: 0 ;
+}
+
+body{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: radial-gradient(rgb(255, 241, 249) 90%, rgb(255, 129, 247))
+}
+
+img{
+    filter: opacity(50%);
+}
+
+.block{
+    border: solid 0.1rem rgb(100, 100, 100);
+    padding: 2rem;
+    border-radius: 4%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all .218s;
+    cursor: pointer;
+}
+
+.block:hover{
+    transform: translateY(-0.4rem);
+    box-shadow: 0.25px 10px 13px -6px rgba(0,0,0,0.41);
+}

@@ -1,0 +1,7 @@
+body{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: radial-gradient(rgb(255, 241, 249) 90%, rgb(255, 129, 247))
+}
